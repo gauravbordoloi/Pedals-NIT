@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "2528071417",
+    "firebase_url": "https://pedals-e4683.firebaseio.com",
+    "project_id": "pedals-e4683",
+    "storage_bucket": "pedals-e4683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2528071417:android:17c4283b4cb92e9c",
+        "android_client_info": {
+          "package_name": "com.gmonetix.pedals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2528071417-6fmd6uude8rt1nqsaobckv1buje4otri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJzxuRpl1j6vW9qyZqTNPpZFm0ZKepoMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

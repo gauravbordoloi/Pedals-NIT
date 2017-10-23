@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_us">
+        <item>CALL US</item>
+        <item>EMAIL US</item>
+        <item>VISIT WEBSITE</item>
+        <item>VISIT FACEBOOK PAGE</item>
+    </array>
+</resources>

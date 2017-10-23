@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pedals</string>
+
+    <string name="register_warning_dialog">All the data submitted may be manually verified and approved! Its compulsory to add correct details else your account will become void</string>
+    <string name="privacy_policy">1. We will collect your personal information such as name, email, phone, NIT registration number, etc for the management of user accounts.\n2. Your location won\u2019t be traced by the app.\n3. The app asks for the below permissions\nWRITE_EXTERNAL_STORAGE, CALL_PHONE</string>
+    <string name="terms_and_conditions">1. You can have a ride of maximum 10 hours but before doing so please inform us through a call.\n2. During your trip , the responsibility of the bike will be totally in your hand. \n3. You have to pay for the bike, if you lose or return a faulty one. NO NEGOTIATION.\n4. We will not be responsible for any accident caused during your trip.\n5. Losing the keys is chargeable with a fine of Rs 100.\n6. Providing any fake account details or Ids will make your account void.</string>
+    <string name="user_guide">1. Choose and request any desired bike from the list of available bikes.\n\n2. We will provide you a location to collect the key and the bike through a call on your registered mobile number.\n(NOTE - you must deposit your Student ID proof with us during your trip)\n\n3. You must be present at the provided location to collect the bike within 10 minutes of your request else your request will be canceled.\n\n4. After collecting the key from us, the chargeable time will start and upon returning they key, your trip ends and you have to pay the generated bill.\n\n4.For female users, the bike will be delivered in front of the NIT Academic Building(old).</string>
+    <string name="work_with_us">1.You will be given a share of 50% of the total income from your bike.\n2.Your bike will be secured with us and whenever you want to use or keep it, you can.\n3.In case of any damage or loss incurred by the bike, we shall take full responsibility.</string>
+
+    <string name="share_app_text">India\'s first online transportation network startup as an online bicycle aggregator based in NIT DURGAPUR.\nPEDALS will help commuters in times of short distance travels to Schools/ Colleges/ Offices/ Markets in traffic.\nPEDALS allows you to rent bicycles at \'Point A\' and commute to \'Point B\'.\nBuilding a robust technology to manage the process as well as the security from theft.</string>
+
+    <string name="permission">Please allow the permissions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

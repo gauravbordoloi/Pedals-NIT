@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_workWithUs"
+        android:title="Work with us" />
+
+    <item
+        android:id="@+id/menu_onlineServices"
+        android:title="Online Services" />
+
+    <item
+        android:id="@+id/menu_shareApp"
+        android:title="Share the App" />
+
+</menu>
