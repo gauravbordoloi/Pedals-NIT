@@ -2,6 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@android:color/transparent"
     tools:context="com.gmonetix.pedals.fragment.UserGuideFragment">
@@ -14,12 +16,23 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <TextView
+        <at.blogc.android.views.ExpandableTextView
+            android:id="@+id/expandableTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/user_guide"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:maxLines="10"
+            android:ellipsize="end"
+            app:animation_duration="750"/>
+
+        <ImageView
+            android:id="@+id/button_toggle"
+            android:layout_gravity="end"
+            app:srcCompat="@drawable/ic_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
         <com.balysv.materialripple.MaterialRippleLayout
             android:id="@+id/user_guide_termsAndConditions"

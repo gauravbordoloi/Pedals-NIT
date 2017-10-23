@@ -1,9 +1,9 @@
 package com.gmonetix.pedals.dialog;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatDialog;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -23,11 +23,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -35,7 +33,7 @@ import butterknife.ButterKnife;
  * @author Gmonetix
  */
 
-public class CycleDialog extends Dialog {
+public class CycleDialog extends AppCompatDialog {
 
     @BindView(R.id.dialog_cycle_close) ImageView closeDialog;
     @BindView(R.id.dialog_cycle_id) TextView tvID;

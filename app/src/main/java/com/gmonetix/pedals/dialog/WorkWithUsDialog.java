@@ -1,8 +1,8 @@
 package com.gmonetix.pedals.dialog;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatDialog;
 import android.view.View;
 import android.widget.ImageView;
 import com.balysv.materialripple.MaterialRippleLayout;
@@ -15,7 +15,7 @@ import static com.gmonetix.pedals.App.sharedPref;
  * @author Gmonetix
  */
 
-public class WorkWithUsDialog extends Dialog {
+public class WorkWithUsDialog extends AppCompatDialog {
 
     @BindView(R.id.dialog_workWithUs_close)
     ImageView dialogClose;

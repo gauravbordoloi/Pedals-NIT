@@ -16,8 +16,8 @@ android {
         applicationId "com.gmonetix.pedals"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -52,6 +52,7 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:4.2.0'
     compile 'com.afollestad.material-dialogs:core:0.9.4.7'
     compile 'com.google.firebase:firebase-perf:11.4.2'
+    compile 'at.blogc:expandabletextview:1.0.5'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
